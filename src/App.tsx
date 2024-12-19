@@ -1,35 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <body>
+        <div>
+          <h1 id="title">桐陰の技術、ここに集まる。</h1>
+        </div>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          <b>
+            <span class="TCA">TCA(正式名称：Toin Computer Association)</span>
+            のホームページへようこそ！
+          </b>
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <p>ここでは主に活動内容や功績、リンク集などを掲載する予定です。</p>
+        <p>
+          このページは現在作成中であり、コンテンツがあまりありませんが、どうぞゆっくりしていってください。
+        </p>
+        <h2>活動実績</h2>
+        <ul id="achive_list">
+          <li>SuperComputingContest2023 本戦出場</li>
+          <li>パソコン甲子園2023 予選敗退</li>
+          <li>
+            情報オリンピック(JOI2023/2024)
+            1次予選突破6名(うちJOIG本選出場者2名)、2次予選突破3名
+          </li>
+        </ul>
+        <h2>リンク集</h2>
+        <p>
+          以下はTCAに関連するリンク集です。(今後、別ページやフッター・ヘッダーに移動する可能性があります。)
+        </p>
+        <ul>
+          <li>
+            <a href="https://twitter.com/toincomputer">公式Twitter (現X)</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCTxyuWMK0cUP3Z4bcJioSXg">
+              公式Youtubeチャンネル
+            </a>
+          </li>
+        </ul>
+      </body>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
