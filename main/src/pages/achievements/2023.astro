@@ -1,0 +1,31 @@
+---
+
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+<main>
+  <h1>2023年度の実績</h1>
+  <section>
+    <ul>
+        <li>SuperComputingContest2023 本戦出場</li>
+        <li>日本情報オリンピック(JOI2023/2024)
+            <ul>
+                <li>1次予選突破 6名</li>
+                <li>JOIG本戦出場 2名</li>
+                <li>JOI本戦出場 3名</li>
+            </ul>
+        </li>
+    </ul>
+  </section>
+</main>
+<Footer />

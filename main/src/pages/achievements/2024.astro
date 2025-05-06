@@ -1,0 +1,37 @@
+---
+
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+<main>
+  <h1>2024年度の実績</h1>
+  <section>
+    <ul>
+      <li>SuperComputingContest2024 本戦2位</li><a href=""></a>
+      <li>パソコン甲子園本戦出場</li><a href=""></a>
+      <li>日本情報オリンピック(JOI2024/2025)
+          <ul>
+              <li>1次予選突破 20+名</li>
+              <li>JOIG本戦出場 3名</li>
+              <li>JOI本戦出場 4名</li>
+              <li>JOIG本戦銅賞 1名</li>
+              <li>JOIG春合宿出場 2名</li>
+              <li>JOI春合宿出場 1名</li>
+              <li>EGOI(ヨーロッパ女子情報オリンピック)日本代表 1名</li>
+
+          </ul>
+      </li>
+  </ul>
+  </section>
+</main>
+<Footer />
