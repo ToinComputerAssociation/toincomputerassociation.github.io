@@ -2,7 +2,7 @@
 .midashi{
     color: rgb(151,244,255);
 }
-.small_midashi_1{border-left: solid 10px #2525254a;
+.small_midashi_1{border-left: solid 10px rgb(151,244,255);
     padding-left: 10px;
     font-weight: normal;
     color:white;
