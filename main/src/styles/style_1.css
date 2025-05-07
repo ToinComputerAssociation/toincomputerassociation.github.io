@@ -1,0 +1,26 @@
+/*.midashi{border-bottom: solid 4px;}*/
+.midashi{
+    color: rgb(151,244,255);
+}
+.small_midashi_1{border-left: solid 10px #2525254a;
+    padding-left: 10px;
+    font-weight: normal;
+    color:white;
+
+}
+.small_midashi_2{border-left: solid 10px #2525254a;
+    padding-left: 10px;
+    font-weight: normal;
+    color:white;
+
+}
+.small_midashi_3{border-left: solid 10px #2525254a;
+    padding-left: 10px;
+    font-weight: normal;
+    color:white;
+}
+
+body{
+    background: black !important;
+    color: white !important;
+}
