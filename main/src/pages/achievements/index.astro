@@ -4,6 +4,7 @@ import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import '../../styles/style_achi.css';
 ---
 
 <!doctype html>
@@ -14,9 +15,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 	<body>
 		<Header />
 <main>
-  <h1>活動実績</h1>
+  <h1 class="midashi_achi">活動実績</h1>
   <section>
-    <ul>
+    <ul class="achi_list">
       <li><a href="/achievements/2024">2024年度</a></li>
       <li><a href="/achievements/2023">2023年度</a></li>
     </ul>

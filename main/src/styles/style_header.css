@@ -1,0 +1,21 @@
+.internal-links{
+    color: white;
+}
+
+.page_title{
+    color: rgb(151,244,255);
+}
+
+.logo {
+    height: auto; 
+    width: 200px;
+    display: block;
+  }
+
+.social-links{
+    color: white;
+}
+/*
+.social-links a:hover{
+    color: #0D47A1 !important;
+}*/

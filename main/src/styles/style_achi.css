@@ -1,0 +1,17 @@
+body{
+    background: black;
+    color: white;
+}
+
+.midashi_achi{
+    color: white;
+    border-left: solid 8px rgb(151,244,255);
+    padding-left: 13px;
+}
+
+a{
+    color: rgb(179, 157, 219);
+}
+a:hover{
+    color: rgb(232, 234, 246);
+}

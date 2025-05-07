@@ -1,9 +1,10 @@
 ---
 const today = new Date();
+import '../styles/style_footer.css';
 ---
 
 <footer>
-	&copy; {today.getFullYear()} TCA. All rights reserved.
+	<p class="footer-text">&copy; {today.getFullYear()} TCA. All rights reserved.
 	<div class="social-links">
 		
 		<a href="https://x.com/toincomputer" target="_blank">
@@ -33,8 +34,9 @@ const today = new Date();
 <style>
 	footer {
 		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
+		background: black;
+		/*background: linear-gradient(var(--gray-gradient)) no-repeat;*/
+		color: rgb(152, 222, 230);
 		text-align: center;
 	}
 	.social-links {
@@ -45,9 +47,9 @@ const today = new Date();
 	}
 	.social-links a {
 		text-decoration: none;
-		color: rgb(var(--gray));
+		color: white;
 	}
 	.social-links a:hover {
-		color: rgb(var(--gray-dark));
+		color: rgb(158, 158, 158);
 	}
 </style>

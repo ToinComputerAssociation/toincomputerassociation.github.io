@@ -1,26 +1,51 @@
-/*.midashi{border-bottom: solid 4px;}*/
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 .midashi{
-    color: rgb(151,244,255);
+    color: white;
+    padding-bottom: 75px;
+    font-family: Rethink Sans;
+    font-size: 80px;
 }
-.small_midashi_1{border-left: solid 10px rgb(151,244,255);
-    padding-left: 10px;
+.small_midashi_1{border-left: solid 8px rgb(151,244,255);
+    padding-left: 13px;
     font-weight: normal;
     color:white;
 
 }
-.small_midashi_2{border-left: solid 10px #2525254a;
-    padding-left: 10px;
+.small_midashi_2{border-left: solid 8px rgb(151,244,255);
+    padding-left: 13px;
     font-weight: normal;
     color:white;
 
 }
-.small_midashi_3{border-left: solid 10px #2525254a;
-    padding-left: 10px;
+.small_midashi_3{border-left: solid 8px rgb(151,244,255);
+    padding-left: 13px;
     font-weight: normal;
     color:white;
 }
 
 body{
-    background: black !important;
-    color: white !important;
+    background: black;
+
+}
+
+.bun_1{
+    color: rgb(224, 224, 224);
+    padding-bottom: 80px;
+}
+
+.bun_2{
+    color: rgb(224, 224, 224);
+    padding-bottom: 80px;
+}
+
+.link_list{
+    padding-bottom: 60px;
+    color: rgb(224, 224, 224);
+}
+
+a{
+    color: rgb(179, 157, 219);
+}
+a:hover{
+    color: rgb(232, 234, 246);
 }
