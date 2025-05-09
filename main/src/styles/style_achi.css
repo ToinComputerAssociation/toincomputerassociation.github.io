@@ -15,3 +15,15 @@ a{
 a:hover{
     color: rgb(232, 234, 246);
 }
+
+.midashi_2023{
+    color: white;
+    border-left: solid 8px rgb(151,244,255);
+    padding-left: 13px;
+}
+
+.midashi_2024{
+    color: white;
+    border-left: solid 8px rgb(151,244,255);
+    padding-left: 13px;
+}
