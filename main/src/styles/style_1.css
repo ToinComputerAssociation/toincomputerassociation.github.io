@@ -1,51 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
-.midashi{
-    color: white;
-    padding-bottom: 75px;
-    font-family: Rethink Sans;
-    font-size: 80px;
+/* @import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"); */
+@font-face {
+  font-family: "Rethink Sans";
+  src: url("/fonts/RethinkSans-VariableFont_wght.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-.small_midashi_1{border-left: solid 8px rgb(151,244,255);
-    padding-left: 13px;
-    font-weight: normal;
-    color:white;
-
+.midashi {
+  color: white;
+  padding-bottom: 75px;
+  font-family: "Rethink Sans";
+  font-size: 80px;
 }
-.small_midashi_2{border-left: solid 8px rgb(151,244,255);
-    padding-left: 13px;
-    font-weight: normal;
-    color:white;
-
+.small_midashi_1 {
+  border-left: solid 8px rgb(151, 244, 255);
+  padding-left: 13px;
+  font-weight: normal;
+  color: white;
 }
-.small_midashi_3{border-left: solid 8px rgb(151,244,255);
-    padding-left: 13px;
-    font-weight: normal;
-    color:white;
+.small_midashi_2 {
+  border-left: solid 8px rgb(151, 244, 255);
+  padding-left: 13px;
+  font-weight: normal;
+  color: white;
 }
-
-body{
-    background: black;
-
-}
-
-.bun_1{
-    color: rgb(224, 224, 224);
-    padding-bottom: 80px;
+.small_midashi_3 {
+  border-left: solid 8px rgb(151, 244, 255);
+  padding-left: 13px;
+  font-weight: normal;
+  color: white;
 }
 
-.bun_2{
-    color: rgb(224, 224, 224);
-    padding-bottom: 80px;
+body {
+  background: black;
 }
 
-.link_list{
-    padding-bottom: 60px;
-    color: rgb(224, 224, 224);
+.bun_1 {
+  color: rgb(224, 224, 224);
+  padding-bottom: 80px;
 }
 
-a{
-    color: rgb(179, 157, 219);
+.bun_2 {
+  color: rgb(224, 224, 224);
+  padding-bottom: 80px;
 }
-a:hover{
-    color: rgb(232, 234, 246);
+
+.link_list {
+  padding-bottom: 60px;
+  color: rgb(224, 224, 224);
+}
+
+a {
+  color: rgb(179, 157, 219);
+}
+a:hover {
+  color: rgb(232, 234, 246);
 }
