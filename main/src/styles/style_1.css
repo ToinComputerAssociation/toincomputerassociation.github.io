@@ -9,7 +9,7 @@
 .midashi {
   color: white;
   padding-bottom: 75px;
-  font-family: "Rethink Sans", sans-serif;
+  font-family: "Rethink Sans", sans-serif !important;
   font-size: 80px;
 }
 .small_midashi_1 {
