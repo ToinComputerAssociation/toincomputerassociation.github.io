@@ -7,23 +7,35 @@ body{
     color: white;
     border-left: solid 8px rgb(151,244,255);
     padding-left: 13px;
+    font-weight: normal;
 }
 
-a{
-    color: rgb(179, 157, 219);
+a {
+  color: #0058B3;
 }
-a:hover{
-    color: rgb(232, 234, 246);
+a:hover {
+  color: #874848;
+}
+a:visited{
+    color: rgb(179, 157, 219);
 }
 
 .midashi_2023{
     color: white;
     border-left: solid 8px rgb(151,244,255);
     padding-left: 13px;
+    font-weight: normal;
 }
 
 .midashi_2024{
     color: white;
     border-left: solid 8px rgb(151,244,255);
     padding-left: 13px;
+    font-weight: normal;
+}
+.sen_first_2023{
+    padding-top: 28px;
+}
+.sen_first_2024{
+    padding-top: 28px;
 }

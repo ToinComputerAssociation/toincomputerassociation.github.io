@@ -51,8 +51,11 @@ body {
 }
 
 a {
-  color: #000ee0;
+  color: #0058B3;
 }
 a:hover {
-  color: rgb(232, 234, 246);
+  color: #874848;
+}
+a:visited {
+  color: rgb(179, 157, 219);
 }
