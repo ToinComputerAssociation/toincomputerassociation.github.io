@@ -47,11 +47,11 @@ body {
 
 .link_list {
   padding-bottom: 60px;
-  color: rgb(224, 224, 224);
+  color:  gray;
 }
 
 a {
-  color: rgb(179, 157, 219);
+  color: #000ee0;
 }
 a:hover {
   color: rgb(232, 234, 246);

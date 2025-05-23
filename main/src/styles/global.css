@@ -40,7 +40,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 1.7;
 }
 main {
@@ -152,4 +152,31 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+.internal-links {
+    color: white;
+}
+
+.page_title {
+    color: rgb(151,244,255);
+}
+
+.logo {
+    height: auto;
+    width: 200px;
+    display: block;
+}
+
+.social-links {
+    color: white;
+}
+
+.sosial-links {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text {
+    border-top: solid 1px white;
+    padding-top: 20px;
 }
