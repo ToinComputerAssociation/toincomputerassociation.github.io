@@ -1,8 +1,9 @@
 ---
 title: "ToinFes2024"
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2025"
-heroImage: "/blog-placeholder-3.jpg"
+description: "2024年度の桐陰祭での作品"
+pubDate: "Sep 07 2024"
+heroImage: "/toinfes2024_top.jpg"
 ---
 
+2024 年の桐陰祭では、TCA は例年通り、部員たちが作成したゲームや、その他の作品を展示しました。
 <a href="https://toincomputerassociation.github.io/ToinFes2024_TCA/">ここから遊べるよ</a>
